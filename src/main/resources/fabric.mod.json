@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "boton4",
+  "version": "${version}",
+  "name": "Botón 4 antes del inventario",
+  "description": "Al apretar la tecla del inventario, se presiona el botón 4 del mouse y recién después se abre el inventario.",
+  "environment": "client",
+  "mixins": ["boton4.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
